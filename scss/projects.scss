@@ -44,6 +44,9 @@
   .glow-icons {
     .glow-icon {
       margin: .1875rem; /* 3px */
+      @media (min-width: 360px) and (max-width: 767px) {
+        margin: 1px;
+      }
       @media (min-width: 768px) and (max-width: 1199px) {
         margin: .25rem; /* 4px */
       }
@@ -51,6 +54,10 @@
     .glow-box-parent {
       width: 2.5rem; /* 40px */
       height: 2.5rem; /* 40px */
+      @media (min-width: 360px) and (max-width: 767px) {
+        width: 2.25rem; /* 36px */
+        height: 2.25rem; /* 36px */
+      }
       @media (min-width: 768px) and (max-width: 1199px) {
         width: 2.375rem; /* 38px */
         height: 2.375rem; /* 38px */
